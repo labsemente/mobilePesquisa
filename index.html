@@ -15,33 +15,94 @@
 
 </head>
 <body>
-<div data-role="page" id="home">
-    <header data-role="header">
+<div data-role="page"  data-title= "cadastro de pesquisa" id="index">
+    <div data-role="header">
+        <h1>Agenda de Orientação</h1>
+    <div data-role="navbar">
+        <ul>
+            <li> <a href="#index" class="ui-btn-active ui-state-persist">Home</a></li>
+            <li> <a href="#Reuniao">Reunião</a></li>
+            <li> <a href="#orientandos">Orientandos</a></li>
+        </ul>
+        </div>
+        </div><!--/header-->
+
+
+    <div data-role="content">
+                      <h1> cadastro de pesquisas</h1>
+        </div><!--/contect-->
+
+
+    <div data-role="footer">
+        <small>&#169;2012 Agenda de Orientação</small>
+        </div><!--/footer-->
+</div><!--/page-->
+
+<div data-role="page"  data-title= "Reuniao" id="Reuniao">
+    <div data-role="header">
         <h1>Agenda de Orientação</h1>
 
-    </header><!--/header-->
-    <nav data-role="navbar">
+    <div data-role="navbar">
         <ul>
-            <li> <a href="index.html" class="ui-btn-active ui-state-persist">home</a></li>
-            <li> <a href="Reuniao.html">áreas</a></li>
-            <li> <a href="orientandos.html">orientandos</a></li>
+            <li> <a href="#index">Home</a></li>
+            <li> <a href="#Reuniao"class="ui-btn-active ui-state-persist">Reunião</a></li>
+            <li> <a href="#orientandos">Orientandos</a></li>
         </ul>
-    </nav><!--navbar-->
-    <section data-role="content">
-        <!--marcação do cnteúdo específico da página-->
-    </section><!--content-->
+    </div>
+    </div><!--/header-->
 
-    <footer data-role="footer" data-position="fixed">
-    <nav data-role="navbar">
+
+    <div data-role="content">
+        <h1> horarioss</h1>
         <ul>
-            <li> <a href="Congressos.html">Áreas</a></li>
-            <li> <a href="Artigos.html">Orientandos</a></li>
-            <li> <a href="Contatos.html">Contatos</a></li>
+            <li>segunda</li>
+            <li>terca</li>
+
+
+
         </ul>
-    </nav><!--navbar-->
+    </div><!--/content-->
 
-</footer><!--footer-->
 
-</div><!--page-->
+    <div data-role="footer">
+        <small>&#169;2012 Agenda de Pesquisa</small>
+</div><!--/footer-->
+</div><!--/page-->
+
+
+
+
+</div><!--/page-->
+        <div data-role="page"  data-title="Orientacao" id="orientandos">
+            <div data-role="header">
+                <h1>Agenda de Orientação</h1>
+
+                <div data-role="navbar">
+                    <ul>
+                        <li> <a href="#index">Home</a></li>
+                        <li> <a href="#Reuniao">Reunião</a></li>
+                        <li> <a href="#orientandos" class="ui-btn-active ui-state-persist">Orientandos</a></li>
+                    </ul>
+                </div>
+            </div><!--/header-->
+
+
+            <div data-role="content">
+                <h1> Nomes dos orientandoss</h1>
+                <ul>
+                    <li>Nome</li>
+                    <li>Telefone</li>
+
+
+
+                </ul>
+            </div><!--/contect-->
+
+
+            <div data-role="footer">
+                <small>&#169;2012   Agenda de Pesquisa</small>
+            </div><!--/footer-->
+        </div><!--/page-->
+
 </body>
 </html>
